@@ -5,7 +5,7 @@ Este repositório foi criado para documentar minha jornada de aprendizado na lin
 ## 🚀 O que estou estudando:
 ### 📚 Progresso no Curso em Vídeo (Python 3)
 
-- [ ] **Mundo 1: Fundamentos**
+- [x] **Mundo 1: Fundamentos**
     - [x] Conhecendo a linguagem
     - [x] Tipos primitivos e saída de dados
     - [x] Operadores aritméticos
@@ -13,8 +13,8 @@ Este repositório foi criado para documentar minha jornada de aprendizado na lin
     - [x] Manipulando texto
     - [x] Condições (if...else)
 - [ ] **Mundo 2: Estruturas de Controle**
-    - [ ] Condições aninhadas
-    - [ ] Repetições (for)
+    - [x] Condições aninhadas
+    - [x] Repetições (for)
     - [ ] Repetições (while)
 - [ ] **Mundo 3: Estruturas Compostas**
     - [ ] Tuplas, Listas e Dicionários
