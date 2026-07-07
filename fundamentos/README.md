@@ -92,12 +92,66 @@ Este diretório reúne os primeiros passos e os desafios práticos desenvolvidos
 ---
 
 ## 🔮 Mundo 3: Estruturas Compostas e Módulos
-*Próxima etapa dos estudos focada em manipulação avançada de dados, organização e tratamento de erros.*
 
-Os exercícios do terceiro bloco do curso serão organizados em um diretório próprio assim que iniciados, englobando os seguintes conceitos:
-* **Estruturas Compostas:** Tuplas, Listas (Simples e Compostas) e Dicionários.
-* **Organização de Código:** Funções (Parâmetros, escopo, retornos) e Modularização.
-* **Robustez:** Tratamento de Erros e Exceções em Python.
+Etapa focada em manipulação avançada de dados, organização de código, modularização e robustez no tratamento de erros.
+
+### 📦 Estruturas Compostas (Tuplas, Listas e Dicionários)
+| Arquivo | Descrição / Objetivo do Desafio |
+| :--- | :--- |
+| **ex072.py** | Número por Extenso (Lê um número de 0 a 20 e mostra por extenso usando Tuplas) |
+| **ex073.py** | Tuplas com Times de Futebol (Análise de posições, tabela e ordem alfabética) |
+| **ex074.py** | Maior e menor valores em Tuplas (Gera números aleatórios e indica os extremos) |
+| **ex075.py** | Análise de dados em uma Tupla (Identifica posições, ocorrências e valores pares) |
+| **ex076.py** | Lista de Preços com Tupla (Organiza dados tabulares de produtos e preços) |
+| **ex077.py** | Contando vogais em Tupla (Identifica e exibe as vogais de várias palavras) |
+| **ex078.py** | Maior e Menor valores na Lista (Lê 5 valores e mostra suas respectivas posições) |
+| **ex079.py** | Valores únicos em uma Lista (Cadastra números sem repetir e os exibe em ordem) |
+| **ex080.py** | Lista ordenada sem repetições (Insere valores na posição correta sem usar o `sort()`) |
+| **ex081.py** | Extraindo dados de uma Lista (Análise de elementos, ordenação decrescente e busca) |
+| **ex082.py** | Dividindo valores em várias listas (Separa números digitados em listas de pares e ímpares) |
+| **ex083.py** | Validando expressões matemáticas (Usa listas para verificar parênteses abertos/fechados) |
+| **ex084.py** | Lista composta e análise de dados (Cadastro de nome/peso identificando os mais leves/pesados) |
+| **ex085.py** | Listas com pares e ímpares (Uma única lista composta que separa os valores internamente) |
+| **ex086.py** | Matriz em Python (Criação e preenchimento de uma estrutura de matriz 3x3) |
+| **ex087.py** | Mais sobre Matriz em Python (Cálculos de somas de colunas, pares e maior valor da linha) |
+| **ex088.py** | Palpites para a Mega Sena (Gera combinações aleatórias sem repetição em listas compostas) |
+| **ex089.py** | Boletim com listas compostas (Cadastro de alunos e notas com sistema de busca de detalhes) |
+| **ex090.py** | Dicionário em Python (Guarda nome e média de um aluno, determinando a situação) |
+| **ex091.py** | Jogo de Dados em Python (4 jogadores jogam dados, guardados em dicionário e ordenados) |
+| **ex092.py** | Cadastro de Trabalhador em Python (Calcula idade e ano de aposentadoria com dicionários) |
+| **ex093.py** | Cadastro de Jogador de Futebol (Aproveitamento de gols por partida usando dicionários) |
+| **ex094.py** | Unindo dicionários e listas (Cadastro de grupo com estatísticas de média de idade e gênero) |
+| **ex095.py** | Aprimorando os Dicionários (Evolução do ex093 com sistema de busca para múltiplos jogadores) |
+
+### 🛠️ Organização de Código (Funções e Modularização)
+| Arquivo | Descrição / Objetivo do Desafio |
+| :--- | :--- |
+| **ex096.py** | Função que calcula área (Uso de parâmetros para dimensões de um terreno) |
+| **ex097.py** | Um print especial (Função adaptável para mostrar títulos com linhas dinâmicas) |
+| **ex098.py** | Função de Contador (Cria rotinas de contagem personalizadas com início, fim e passo) |
+| **ex099.py** | Função que descobre o maior (Recebe múltiplos parâmetros e identifica o maior valor) |
+| **ex100.py** | Funções para sortear e somar (Uma função sorteia valores e outra soma apenas os pares) |
+| **ex101.py** | Funções para votação (Retorna se uma pessoa tem voto negado, opcional ou obrigatório) |
+| **ex102.py** | Função para Fatorial (Calcula o fatorial mostrando ou ocultando o processo de cálculo) |
+| **ex103.py** | Ficha do Jogador (Função com parâmetros opcionais para dados do atleta) |
+| **ex104.py** | Validando entrada de dados (Criação de uma função `leiaint()` personalizada) |
+| **ex105.py** | Analisando e gerando Dicionários (Função que recebe notas e retorna a situação da turma) |
+| **ex106.py** | Sistema interativo de ajuda em Python (Uso de docstrings e cores no terminal para o PyHelp) |
+| **ex107.py** | Exercitando módulos em Python (Primeiros passos dividindo o código em arquivos externos) |
+| **ex108.py** | Formatando Moedas em Python (Módulo adaptado para exibir valores monetários formatados) |
+| **ex109.py** | Reduzindo ainda mais seu programa (Parâmetros lógicos para otimizar formatação de moedas) |
+| **ex110.py** | Reduzindo ainda mais seu programa (Função de resumo completa direto dentro do módulo) |
+| **ex111.py** | Transformando módulos em pacotes (Organização de código em subpastas/pacotes utilitários) |
+| **ex112.py** | Entrada de dados monetários (Criação de um validador de dados para aceitar valores monetários) |
+
+### 🛡️ Robustez (Tratamento de Erros e Exceções)
+| Arquivo | Descrição / Objetivo do Desafio |
+| :--- | :--- |
+| **ex113.py** | Funções aprofundadas em Python (Revisão de leitura de dados tratando erros com `try/except`) |
+| **ex114.py** | Site está acessível? (Código para testar a conectividade de uma URL/site em tempo real) |
+| **ex115a.py** | Criando um menu em Python (Estrutura de interface textual para um sistema de cadastro) |
+| **ex115b.py** | Arquivos com Python (Rotinas para ler e gravar dados permanentemente em arquivo `.txt`) |
+| **ex115c.py** | Finalizando o projeto (Integração total do sistema de cadastro com persistência de dados) |
 
 ---
 Componente de estudos desenvolvido por [Karoline](https://github.com/karoline-barone).
